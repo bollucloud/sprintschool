@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>abound - Yii theme</title>
+    <title>SCINTIN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Free yii themes, free web application theme">
     <meta name="author" content="Webapplicationthemes.com">
@@ -27,16 +26,11 @@
 	  $cs->registerCssFile($baseUrl.'/css/bootstrap.min.css');
 	  $cs->registerCssFile($baseUrl.'/css/bootstrap-responsive.min.css');
 	  $cs->registerCssFile($baseUrl.'/css/abound.css');
+          $cs->registerCssFile($baseUrl.'/css/style-'.AppParams::model()->findByAttributes(array('param'=>'style'))->value.'.css');
 	  //$cs->registerCssFile($baseUrl.'/css/style-blue.css');
 	  ?>
       <!-- styles for style switcher -->
-      	<link rel="stylesheet" type="text/css" href="<?php echo $baseUrl;?>/css/style-blue.css" />
-        <link rel="alternate stylesheet" type="text/css" media="screen" title="style2" href="<?php echo $baseUrl;?>/css/style-brown.css" />
-        <link rel="alternate stylesheet" type="text/css" media="screen" title="style3" href="<?php echo $baseUrl;?>/css/style-green.css" />
-        <link rel="alternate stylesheet" type="text/css" media="screen" title="style4" href="<?php echo $baseUrl;?>/css/style-grey.css" />
-        <link rel="alternate stylesheet" type="text/css" media="screen" title="style5" href="<?php echo $baseUrl;?>/css/style-orange.css" />
-        <link rel="alternate stylesheet" type="text/css" media="screen" title="style6" href="<?php echo $baseUrl;?>/css/style-purple.css" />
-        <link rel="alternate stylesheet" type="text/css" media="screen" title="style7" href="<?php echo $baseUrl;?>/css/style-red.css" />
+        
 	  <?php
 	  $cs->registerScriptFile($baseUrl.'/js/bootstrap.min.js');
 	  $cs->registerScriptFile($baseUrl.'/js/plugins/jquery.sparkline.js');
@@ -45,7 +39,6 @@
 	  $cs->registerScriptFile($baseUrl.'/js/charts.js');
 	  $cs->registerScriptFile($baseUrl.'/js/plugins/jquery.knob.js');
 	  $cs->registerScriptFile($baseUrl.'/js/plugins/jquery.masonry.min.js');
-	  $cs->registerScriptFile($baseUrl.'/js/styleswitcher.js');
 	?>
   </head>
 
@@ -57,7 +50,7 @@
 </section><!-- /#navigation-main -->
     
 <section class="main-body">
-    <div class="container-fluid">
+    <div class="container main-container <?php if(Yii::app()->user->name==="Manideep") echo 'admin-main-container'; ?>">
             <!-- Include content pages -->
             <?php echo $content; ?>
     </div>

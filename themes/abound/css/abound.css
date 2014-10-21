@@ -4,7 +4,7 @@ body {
 	padding-bottom: 40px;
 	
 }
-.container-fluid{padding-top: 20px;}
+.main-container{padding-top: 15px;}
 
 /*Nav bar*/
 .navbar .brand {
@@ -13,7 +13,6 @@ body {
   font-size:20px;
   font-weight:200;
   padding:10px 20px;
-  margin-left:-15px;
 }
 
 .navbar .nav > li > a {
@@ -24,22 +23,23 @@ body {
 
 .navbar-search .search-query {
   border-radius:5px;
+  
 }
 
 /* Desktops and laptops ----------- */
 @media only screen 
-and (min-width : 1224px) {
-	.container-fluid{padding-top: 100px;}
-	.navbar .brand {margin-left:-90px;}
-	.style-switcher{margin-left:-70px;}
+and (min-width : 980px) {
+	.main-container{padding-top:55px;}
+	.navbar .brand {margin-left:0px;}
+	.admin-main-container{padding-top: 100px;}
 }
 
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1824px) {
-	.container-fluid{padding-top: 100px;}
+	.main-container{padding-top: 55px;}
 	.navbar .brand {margin-left:-90px;}
-	.style-switcher{margin-left:-70px;}
+	.admin-main-container{padding-top: 100px;}
 }
 
 table.detail-view td {font-size:12px;}
@@ -497,15 +497,23 @@ footer {
 /*Style switcher*/
 .style-switcher
 {
-	padding-top:13px;
+	padding-top:12px;
 }
+
+.anti-padding > li{
+    list-style: none;
+    position: block;
+    float: left;
+    margin-right: 05px;
+}
+
 .style-switcher span.style
 {
 	width:16px; 
 	height:16px; 
 	display:block;
-	margin-right:5px;
-	float:left;
+        padding: 0;
+        margin: 0;
 }
 
 /*Button styles*/

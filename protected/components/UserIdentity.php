@@ -28,6 +28,7 @@ class UserIdentity extends CUserIdentity
             else{
                 $this->_id = $user->id;
                 $this->username = $user->first_name;
+                $this->setState('name', $user->first_name);
                 $this->errorCode=self::ERROR_NONE;
             }
             return $this->errorCode===self::ERROR_NONE;

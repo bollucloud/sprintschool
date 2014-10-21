@@ -119,4 +119,13 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+        
+        public function actionStyleswitcher()
+        {
+                    $style = $_GET['style'];
+                    $app_params = AppParams::model()->findByAttributes(array('param'=>'style'));
+                    $app_params->value = $style ;
+                    $app_params->save();
+                    $this->redirect(Yii::app()->user->returnUrl);        
+        }
 }

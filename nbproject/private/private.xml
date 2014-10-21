@@ -3,7 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/smallschool/protected/views/layouts/main.php</file>
+            <file>file:/C:/xampp/htdocs/smallschool/protected/components/Controller.php</file>
+            <file>file:/C:/xampp/htdocs/smallschool/protected/models/AppParams.php</file>
+            <file>file:/C:/xampp/htdocs/smallschool/themes/abound/views/layouts/tpl_footer.php</file>
+            <file>file:/C:/xampp/htdocs/smallschool/protected/controllers/UserController.php</file>
+            <file>file:/C:/xampp/htdocs/smallschool/themes/abound/css/abound.css</file>
+            <file>file:/C:/xampp/htdocs/smallschool/protected/views/vehicles/_form.php</file>
+            <file>file:/C:/xampp/htdocs/smallschool/themes/abound/views/layouts/tpl_navigation.php</file>
+            <file>file:/C:/xampp/htdocs/smallschool/protected/controllers/SiteController.php</file>
+            <file>file:/C:/xampp/htdocs/smallschool/protected/components/UserIdentity.php</file>
+            <file>file:/C:/xampp/htdocs/smallschool/themes/abound/js/styleswitcher.js</file>
+            <file>file:/C:/xampp/htdocs/smallschool/protected/views/schoolclass/_form.php</file>
+            <file>file:/C:/xampp/htdocs/smallschool/protected/models/Routes.php</file>
+            <file>file:/C:/xampp/htdocs/smallschool/themes/abound/views/layouts/main.php</file>
         </group>
     </open-files>
 </project-private>

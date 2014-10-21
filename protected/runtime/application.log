@@ -3337,3 +3337,1775 @@ Stack trace:
 REQUEST_URI=/smallschool/index.php/assignment/admin
 HTTP_REFERER=http://localhost/smallschool/index.php/assignment/create?cid=3
 ---
+2014/10/19 17:05:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "g".' in C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('g')
+#1 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smallschool/index.php/g
+---
+2014/10/19 17:26:01 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#1 C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php(18): VehiclesController->renderPartial()
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): VehiclesController->renderInternal()
+#4 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(782): VehiclesController->renderPartial()
+#6 C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php(79): VehiclesController->render()
+#7 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): VehiclesController->actionCreate()
+#8 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): VehiclesController->runAction()
+#10 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): VehiclesController->filterAccessControl()
+#13 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): VehiclesController->runActionWithFilters()
+#16 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): VehiclesController->run()
+#17 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/vehicles/create
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php (36)
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php (18)
+in C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php (79)
+2014/10/19 17:26:13 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#1 C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php(18): VehiclesController->renderPartial()
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): VehiclesController->renderInternal()
+#4 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(782): VehiclesController->renderPartial()
+#6 C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php(79): VehiclesController->render()
+#7 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): VehiclesController->actionCreate()
+#8 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): VehiclesController->runAction()
+#10 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): VehiclesController->filterAccessControl()
+#13 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): VehiclesController->runActionWithFilters()
+#16 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): VehiclesController->run()
+#17 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/vehicles/create
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php (36)
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php (18)
+in C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php (79)
+2014/10/19 17:26:16 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#1 C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php(18): VehiclesController->renderPartial()
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): VehiclesController->renderInternal()
+#4 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(782): VehiclesController->renderPartial()
+#6 C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php(79): VehiclesController->render()
+#7 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): VehiclesController->actionCreate()
+#8 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): VehiclesController->runAction()
+#10 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): VehiclesController->filterAccessControl()
+#13 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): VehiclesController->runActionWithFilters()
+#16 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): VehiclesController->run()
+#17 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/vehicles/create
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php (36)
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php (18)
+in C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php (79)
+2014/10/19 17:26:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "route".' in C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('route')
+#1 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smallschool/index.php/route
+---
+2014/10/19 17:26:29 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#1 C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php(18): VehiclesController->renderPartial()
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): VehiclesController->renderInternal()
+#4 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(782): VehiclesController->renderPartial()
+#6 C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php(79): VehiclesController->render()
+#7 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): VehiclesController->actionCreate()
+#8 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): VehiclesController->runAction()
+#10 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): VehiclesController->filterAccessControl()
+#13 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): VehiclesController->runActionWithFilters()
+#16 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): VehiclesController->run()
+#17 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/vehicles/create
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php (36)
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php (18)
+in C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php (79)
+2014/10/19 17:27:04 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#1 C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php(18): VehiclesController->renderPartial()
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): VehiclesController->renderInternal()
+#4 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(782): VehiclesController->renderPartial()
+#6 C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php(79): VehiclesController->render()
+#7 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): VehiclesController->actionCreate()
+#8 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): VehiclesController->runAction()
+#10 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): VehiclesController->filterAccessControl()
+#13 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): VehiclesController->runActionWithFilters()
+#16 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): VehiclesController->run()
+#17 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/vehicles/create
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php (36)
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php (18)
+in C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php (79)
+2014/10/19 17:27:22 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#1 C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php(18): VehiclesController->renderPartial()
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): VehiclesController->renderInternal()
+#4 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(782): VehiclesController->renderPartial()
+#6 C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php(79): VehiclesController->render()
+#7 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): VehiclesController->actionCreate()
+#8 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): VehiclesController->runAction()
+#10 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): VehiclesController->filterAccessControl()
+#13 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): VehiclesController->runActionWithFilters()
+#16 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): VehiclesController->run()
+#17 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/vehicles/create
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php (36)
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php (18)
+in C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php (79)
+2014/10/19 17:27:25 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#1 C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php(18): VehiclesController->renderPartial()
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): VehiclesController->renderInternal()
+#4 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(782): VehiclesController->renderPartial()
+#6 C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php(79): VehiclesController->render()
+#7 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): VehiclesController->actionCreate()
+#8 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): VehiclesController->runAction()
+#10 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): VehiclesController->filterAccessControl()
+#13 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): VehiclesController->runActionWithFilters()
+#16 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): VehiclesController->run()
+#17 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/vehicles/create
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php (36)
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php (18)
+in C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php (79)
+2014/10/19 17:28:30 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#1 C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php(18): VehiclesController->renderPartial()
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): VehiclesController->renderInternal()
+#4 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(782): VehiclesController->renderPartial()
+#6 C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php(79): VehiclesController->render()
+#7 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): VehiclesController->actionCreate()
+#8 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): VehiclesController->runAction()
+#10 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): VehiclesController->filterAccessControl()
+#13 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): VehiclesController->runActionWithFilters()
+#16 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): VehiclesController->run()
+#17 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/vehicles/create
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php (36)
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php (18)
+in C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php (79)
+2014/10/19 17:29:07 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#1 C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php(18): VehiclesController->renderPartial()
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): VehiclesController->renderInternal()
+#4 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(782): VehiclesController->renderPartial()
+#6 C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php(79): VehiclesController->render()
+#7 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): VehiclesController->actionCreate()
+#8 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): VehiclesController->runAction()
+#10 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): VehiclesController->filterAccessControl()
+#13 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): VehiclesController->runActionWithFilters()
+#16 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): VehiclesController->run()
+#17 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/vehicles/create
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php (36)
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php (18)
+in C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php (79)
+2014/10/19 17:30:38 [error] [exception.CException] exception 'CException' with message 'Property "Routes.UserOptions" is not defined.' in C:\xampp\htdocs\smallschool\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\db\ar\CActiveRecord.php(145): CComponent->__get('UserOptions')
+#1 C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php(30): CActiveRecord->__get('UserOptions')
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\smallschool\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): VehiclesController->actionCreate()
+#12 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('vehicles/create')
+#22 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/smallschool/index.php/vehicles/create
+HTTP_REFERER=http://localhost/smallschool/index.php/vehicles
+---
+2014/10/19 17:33:06 [error] [php] include(destination.php): failed to open stream: No such file or directory (C:\xampp\htdocs\smallschool\framework\YiiBase.php:427)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\smallschool\framework\web\helpers\CHtml.php(2143): call_user_func()
+#2 C:\xampp\htdocs\smallschool\framework\web\helpers\CHtml.php(2081): value()
+#3 C:\xampp\htdocs\smallschool\protected\models\Routes.php(117): listData()
+#4 C:\xampp\htdocs\smallschool\framework\base\CComponent.php(111): getRouteOptions()
+#5 C:\xampp\htdocs\smallschool\framework\db\ar\CActiveRecord.php(145): Routes->__get()
+#6 C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php(30): Routes->__get()
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#8 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): VehiclesController->renderInternal()
+#9 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#10 C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php(18): VehiclesController->renderPartial()
+#11 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#12 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): VehiclesController->renderInternal()
+#13 C:\xampp\htdocs\smallschool\framework\web\CController.php(869): VehiclesController->renderFile()
+#14 C:\xampp\htdocs\smallschool\framework\web\CController.php(782): VehiclesController->renderPartial()
+#15 C:\xampp\htdocs\smallschool\protected\controllers\VehiclesController.php(79): VehiclesController->render()
+#16 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): VehiclesController->actionCreate()
+#17 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): VehiclesController->runAction()
+#19 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#21 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): VehiclesController->filterAccessControl()
+#22 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#23 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): VehiclesController->runActionWithFilters()
+#25 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): VehiclesController->run()
+#26 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#27 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/vehicles/create
+in C:\xampp\htdocs\smallschool\protected\models\Routes.php (117)
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\_form.php (30)
+in C:\xampp\htdocs\smallschool\protected\views\vehicles\create.php (18)
+2014/10/19 17:45:45 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.menu.SMenu" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\smallschool\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#1 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(TransportFeeController), 'application.ext...', Array)
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#3 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\tpl_navigation.php(82): CBaseController->widget('application.ext...', Array)
+#4 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php(56): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('\r\n  <div class=...')
+#9 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('\r\n  <div class=...')
+#10 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): COutputProcessor->run()
+#11 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#12 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column2.php(84): CBaseController->endContent()
+#13 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#16 C:\xampp\htdocs\smallschool\protected\controllers\TransportFeeController.php(128): CController->render('index', Array)
+#17 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): TransportFeeController->actionIndex()
+#18 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('')
+#27 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('transportfee')
+#28 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/smallschool/index.php/transportfee
+---
+2014/10/20 21:55:13 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser._id" is not defined.' in C:\xampp\htdocs\smallschool\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CWebUser.php(146): CComponent->__get('_id')
+#1 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\tpl_navigation.php(40): CWebUser->__get('_id')
+#2 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php(56): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('\r\n  <div class=...')
+#7 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('\r\n  <div class=...')
+#8 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): COutputProcessor->run()
+#9 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column2.php(84): CBaseController->endContent()
+#11 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\smallschool\protected\controllers\UserController.php(124): CController->render('admin', Array)
+#15 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): UserController->actionAdmin()
+#16 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#26 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/smallschool/index.php/user/admin
+HTTP_REFERER=http://localhost/smallschool/index.php/user/index
+---
+2014/10/20 21:58:14 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\xampp\htdocs\smallschool\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CWebUser.php(146): CComponent->__get('username')
+#1 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\tpl_navigation.php(40): CWebUser->__get('username')
+#2 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php(56): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('\r\n  <div class=...')
+#7 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('\r\n  <div class=...')
+#8 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): COutputProcessor->run()
+#9 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column2.php(84): CBaseController->endContent()
+#11 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\smallschool\protected\controllers\UserController.php(124): CController->render('admin', Array)
+#15 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): UserController->actionAdmin()
+#16 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#26 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/smallschool/index.php/user/admin
+HTTP_REFERER=http://localhost/smallschool/index.php/user/index
+---
+2014/10/20 23:07:02 [error] [php] include(SiteController.php): failed to open stream: No such file or directory (C:\xampp\htdocs\smallschool\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php(33): spl_autoload_call()
+#1 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): SchoolclassController->renderInternal()
+#3 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): SchoolclassController->renderFile()
+#4 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#5 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#6 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): CContentDecorator->run()
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): SchoolclassController->endWidget()
+#8 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column2.php(84): SchoolclassController->endContent()
+#9 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#10 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): SchoolclassController->renderInternal()
+#11 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): SchoolclassController->renderFile()
+#12 C:\xampp\htdocs\smallschool\protected\controllers\SchoolclassController.php(121): SchoolclassController->render()
+#13 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): SchoolclassController->actionIndex()
+#14 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): SchoolclassController->runAction()
+#16 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#18 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): SchoolclassController->filterAccessControl()
+#19 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#20 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): SchoolclassController->runActionWithFilters()
+#22 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): SchoolclassController->run()
+#23 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/schoolclass/index
+in C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php (33)
+in C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column2.php (84)
+in C:\xampp\htdocs\smallschool\protected\controllers\SchoolclassController.php (121)
+2014/10/20 23:08:24 [error] [php] include(SiteController.php): failed to open stream: No such file or directory (C:\xampp\htdocs\smallschool\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php(33): spl_autoload_call()
+#1 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): SchoolclassController->renderInternal()
+#3 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): SchoolclassController->renderFile()
+#4 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#5 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#6 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): CContentDecorator->run()
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): SchoolclassController->endWidget()
+#8 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column2.php(84): SchoolclassController->endContent()
+#9 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#10 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): SchoolclassController->renderInternal()
+#11 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): SchoolclassController->renderFile()
+#12 C:\xampp\htdocs\smallschool\protected\controllers\SchoolclassController.php(121): SchoolclassController->render()
+#13 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): SchoolclassController->actionIndex()
+#14 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): SchoolclassController->runAction()
+#16 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#18 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): SchoolclassController->filterAccessControl()
+#19 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#20 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): SchoolclassController->runActionWithFilters()
+#22 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): SchoolclassController->run()
+#23 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/schoolclass/index
+in C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php (33)
+in C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column2.php (84)
+in C:\xampp\htdocs\smallschool\protected\controllers\SchoolclassController.php (121)
+2014/10/20 23:14:10 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.style" is not defined.' in C:\xampp\htdocs\smallschool\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\base\CModule.php(105): CComponent->__get('style')
+#1 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php(30): CModule->__get('style')
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column1.php(14): CBaseController->endContent()
+#10 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php(45): CController->render('index')
+#14 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('')
+#24 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#25 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/smallschool/index.php
+---
+2014/10/20 23:18:15 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.style" is not defined.' in C:\xampp\htdocs\smallschool\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\base\CModule.php(105): CComponent->__get('style')
+#1 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php(19): CModule->__get('style')
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column1.php(14): CBaseController->endContent()
+#10 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php(45): CController->render('index')
+#14 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('')
+#24 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#25 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/smallschool/index.php
+---
+2014/10/20 23:18:48 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.style" is not defined.' in C:\xampp\htdocs\smallschool\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\base\CModule.php(105): CComponent->__get('style')
+#1 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php(31): CModule->__get('style')
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column1.php(14): CBaseController->endContent()
+#10 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php(45): CController->render('index')
+#14 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('')
+#24 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#25 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/smallschool/index.php
+---
+2014/10/20 23:23:00 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.style" is not defined.' in C:\xampp\htdocs\smallschool\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\base\CModule.php(105): CComponent->__get('style')
+#1 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php(30): CModule->__get('style')
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column1.php(14): CBaseController->endContent()
+#10 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php(45): CController->render('index')
+#14 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('')
+#24 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#25 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/smallschool/index.php
+---
+2014/10/20 23:23:01 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.style" is not defined.' in C:\xampp\htdocs\smallschool\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\base\CModule.php(105): CComponent->__get('style')
+#1 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php(30): CModule->__get('style')
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column1.php(14): CBaseController->endContent()
+#10 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php(45): CController->render('index')
+#14 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('')
+#24 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#25 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/smallschool/index.php
+---
+2014/10/20 23:23:02 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.style" is not defined.' in C:\xampp\htdocs\smallschool\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\base\CModule.php(105): CComponent->__get('style')
+#1 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php(30): CModule->__get('style')
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column1.php(14): CBaseController->endContent()
+#10 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php(45): CController->render('index')
+#14 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('')
+#24 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#25 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/smallschool/index.php
+---
+2014/10/20 23:23:37 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.style" is not defined.' in C:\xampp\htdocs\smallschool\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php(19): CComponent->__set('style', 'blue')
+#1 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): COutputProcessor->run()
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column1.php(14): CBaseController->endContent()
+#9 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php(45): CController->render('index')
+#13 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('')
+#23 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#24 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/smallschool/index.php
+---
+2014/10/20 23:25:54 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\smallschool\framework\base\CModule.php:191)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#2 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#3 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): CContentDecorator->run()
+#5 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): SiteController->endWidget()
+#6 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column1.php(14): SiteController->endContent()
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#8 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): SiteController->renderFile()
+#10 C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php(45): SiteController->render()
+#11 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#14 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#16 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#17 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#18 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#20 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): SiteController->run()
+#21 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php
+in C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php (20)
+in C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column1.php (14)
+in C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php (45)
+2014/10/20 23:27:24 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\smallschool\framework\base\CModule.php:191)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#2 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#3 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): CContentDecorator->run()
+#5 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): SiteController->endWidget()
+#6 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column1.php(14): SiteController->endContent()
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#8 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): SiteController->renderFile()
+#10 C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php(45): SiteController->render()
+#11 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#14 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#16 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#17 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#18 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#20 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): SiteController->run()
+#21 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php
+in C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php (20)
+in C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column1.php (14)
+in C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php (45)
+2014/10/20 23:27:49 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.style" is not defined.' in C:\xampp\htdocs\smallschool\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\base\CModule.php(105): CComponent->__get('style')
+#1 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php(31): CModule->__get('style')
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column1.php(14): CBaseController->endContent()
+#10 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php(45): CController->render('index')
+#14 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('')
+#24 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#25 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/smallschool/index.php
+---
+2014/10/20 23:34:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:38:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:40:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:41:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:42:18 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:42:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:42:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:42:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:44:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:44:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:44:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:44:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:45:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:45:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:46:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:46:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:46:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:46:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:46:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:48:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:49:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:49:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:49:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:49:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:50:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:50:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:50:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:50:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:50:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:51:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:52:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:52:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:52:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:52:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:52:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:52:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:53:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:53:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:53:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:53:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:56:05 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:56:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:56:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:57:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:57:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:57:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/20 23:57:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=brown
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/21 00:01:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('styleswitcher')
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('site/styleswitc...')
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=%22green
+HTTP_REFERER=http://localhost/smallschool/index.php/user/index
+---
+2014/10/21 00:03:05 [error] [php] Undefined index: style (C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php:125)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=%22green
+in C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php (125)
+in C:\xampp\htdocs\smallschool\index.php (13)
+2014/10/21 00:10:29 [error] [exception.CException] exception 'CException' with message 'Property "CAttributeCollection.style" is not defined.' in C:\xampp\htdocs\smallschool\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\collections\CAttributeCollection.php(51): CComponent->__get('style')
+#1 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php(31): CAttributeCollection->__get('style')
+#2 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column1.php(14): CBaseController->endContent()
+#10 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php(45): CController->render('index')
+#14 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('')
+#24 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#25 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/smallschool/index.php
+HTTP_REFERER=http://localhost/smallschool/index.php
+---
+2014/10/21 00:42:58 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php:29)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\xampp\htdocs\smallschool\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\xampp\htdocs\smallschool\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column1.php(14): SiteController->endContent()
+#6 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\smallschool\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\smallschool\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php(45): SiteController->render()
+#10 C:\xampp\htdocs\smallschool\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\xampp\htdocs\smallschool\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#13 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#16 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#19 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): SiteController->run()
+#20 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/
+in C:\xampp\htdocs\smallschool\themes\abound\views\layouts\main.php (29)
+in C:\xampp\htdocs\smallschool\themes\abound\views\layouts\column1.php (14)
+in C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php (45)
+2014/10/21 00:48:57 [error] [php] Undefined index: style (C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php:125)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=%22green%22
+in C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php (125)
+in C:\xampp\htdocs\smallschool\index.php (13)
+2014/10/21 00:50:57 [error] [php] Undefined index: style (C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php:125)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=%22green%22
+in C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php (125)
+in C:\xampp\htdocs\smallschool\index.php (13)
+2014/10/21 00:51:01 [error] [php] Undefined index: style (C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php:125)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=green
+in C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php (125)
+in C:\xampp\htdocs\smallschool\index.php (13)
+2014/10/21 00:51:35 [error] [php] Undefined index: style (C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php:125)
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smallschool\index.php(13): CWebApplication->run()
+REQUEST_URI=/smallschool/index.php/site/styleswitcher?style=green
+in C:\xampp\htdocs\smallschool\protected\controllers\SiteController.php (125)
+in C:\xampp\htdocs\smallschool\index.php (13)
+2014/10/21 01:48:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Class is not specified. Please goto a class before creating an assignment' in C:\xampp\htdocs\smallschool\protected\controllers\AssignmentController.php:162
+Stack trace:
+#0 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): AssignmentController->filterCheckClass(Object(CFilterChain))
+#1 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smallschool\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\smallschool\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\smallschool\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\smallschool\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\smallschool\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\smallschool\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(282): CController->run('create')
+#9 C:\xampp\htdocs\smallschool\framework\web\CWebApplication.php(141): CWebApplication->runController('assignment/crea...')
+#10 C:\xampp\htdocs\smallschool\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\smallschool\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/smallschool/index.php/assignment/create
+---
